@@ -1,0 +1,37 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/b_door_lock_isim_beh.exe -prj /home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/b_door_lock_beh.prj work.b_door_lock work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/led7_decoder.v" into library work
+Analyzing Verilog file "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/state_decoder.v" into library work
+Analyzing Verilog file "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/posedge_detector.v" into library work
+Analyzing Verilog file "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/pass_decoder.v" into library work
+Analyzing Verilog file "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/password_getter_sync.v" into library work
+Analyzing Verilog file "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/LED_blinker.v" into library work
+Analyzing Verilog file "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/door_lock_FSM.v" into library work
+Analyzing Verilog file "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/door_lock_top.v" into library work
+Analyzing Verilog file "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/b_door_lock.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/door_lock_top.v" Line 84: Size mismatch in connection of port <i_binary>. Formal port size is 4-bit while actual signal size is 2-bit.
+Completed static elaboration
+Fuse Memory Usage: 95060 KB
+Fuse CPU Usage: 2960 ms
+Compiling module password_getter_sync
+Compiling module door_lock_FSM
+Compiling module led7_decoder
+Compiling module pass_decoder
+Compiling module state_decoder
+Compiling module LED_blinker(CLK_IN=50000000,FREQ...
+Compiling module LED_blinker(CLK_IN=50000000)
+Compiling module posedge_detector
+Compiling module door_lock_top
+Compiling module b_door_lock
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 11 Verilog Units
+Built simulation executable /home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/b_door_lock_isim_beh.exe
+Fuse Memory Usage: 98152 KB
+Fuse CPU Usage: 3040 ms
+GCC CPU Usage: 1520 ms

@@ -1,0 +1,28 @@
+Command line:
+   t_LED_blinker_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58664
+
+Wed Mar 23 10:45:04 2022
+
+
+ Elaboration Time: 0.14 sec
+
+ Current Memory Usage: 198.582 Meg
+
+ Total Signals          : 18
+ Total Nets             : 17
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 26
+ Total Scalar Nets and Variables : 229
+
+ Total Simulation Time: 0.18 sec
+
+ Current Memory Usage: 276.181 Meg
+
+Wed Mar 23 10:45:45 2022
+

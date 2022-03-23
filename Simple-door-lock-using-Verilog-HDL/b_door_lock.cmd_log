@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/b_door_lock.xst" -ofn "/home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/b_door_lock.syr" 

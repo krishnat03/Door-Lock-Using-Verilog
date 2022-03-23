@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/door_lock_FSM.v -lang verilog -prj Simple-door-lock-using-Verilog-HDL -o door_lock_FSM.spl -module door_lock_FSM -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 door_lock_FSM.spl /home/ise/Downloads/SimpleDoorLocking/Simple-door-lock-using-Verilog-HDL/door_lock_FSM.sym 
